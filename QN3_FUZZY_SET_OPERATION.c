@@ -27,6 +27,7 @@ int main(){
 		if(i!=4)
 		printf(",");
 	}
+	printf("}");
 	
 	printf("\nThe Fuzzy union of set A and B = {");
 	for(i=0;i<5;i++){
@@ -34,6 +35,7 @@ int main(){
 		if(i!=4)
 		printf(",");
 	}
+	printf("}");
 	
 	printf("\nThe Fuzzy Intersection of set A and B = {");
 	for(i=0;i<5;i++)
@@ -42,6 +44,7 @@ int main(){
 		if(i!=4)
 		printf(",");
 	}
+	printf("}");
 	
 	printf("\nThe Fuzzy complement of set A = {");
 	for(i=0;i<5;i++)
@@ -50,6 +53,7 @@ int main(){
 		if(i!=4)
 		printf(",");
 	}
+	printf("}");
 	
 	printf("\nThe Fuzzy concatenation of set A={");
 	for(i=0;i<5;i++){
@@ -57,6 +61,7 @@ int main(){
 	if(i!=4)
 	printf(",");
 }
+printf("}");
 
 printf("\nThe Fuzzy Dialation of Set B = {");
 for(i=0;i<5;i++)
@@ -65,6 +70,7 @@ for(i=0;i<5;i++)
 	if(i!=4)
 	printf(",");
 }
+printf("}");
 
 printf("\nThe Fuzzy difference of A and B = {");
 for(i=0;i<5;i++)
