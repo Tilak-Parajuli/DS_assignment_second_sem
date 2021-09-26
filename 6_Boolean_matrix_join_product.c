@@ -1,4 +1,4 @@
-//Program to implement Boolean matrix operations join boolean product and boolean product. 
+//6.Program to implement Boolean matrix operations join boolean product and boolean product. 
 #include<stdio.h>
 int main(){
 	int a[8][8],b[8][8],c[8][8],n_rows,n_colm,i,j;
